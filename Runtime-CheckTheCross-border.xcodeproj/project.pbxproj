@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE04C3541E5C0D3900C8BD4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04C3531E5C0D3900C8BD4A /* main.m */; };
+		AE04C3571E5C0D3900C8BD4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04C3561E5C0D3900C8BD4A /* AppDelegate.m */; };
+		AE04C35A1E5C0D3900C8BD4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04C3591E5C0D3900C8BD4A /* ViewController.m */; };
+		AE04C35F1E5C0D3900C8BD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE04C35E1E5C0D3900C8BD4A /* Assets.xcassets */; };
+		AE04C3621E5C0D3900C8BD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE04C3601E5C0D3900C8BD4A /* LaunchScreen.storyboard */; };
+		AE04C36C1E5C0E2300C8BD4A /* CheckCrossBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04C36B1E5C0E2300C8BD4A /* CheckCrossBorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE04C34F1E5C0D3900C8BD4A /* Runtime-CheckTheCross-border.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Runtime-CheckTheCross-border.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE04C3531E5C0D3900C8BD4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE04C3551E5C0D3900C8BD4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE04C3561E5C0D3900C8BD4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE04C3581E5C0D3900C8BD4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE04C3591E5C0D3900C8BD4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE04C35E1E5C0D3900C8BD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE04C3611E5C0D3900C8BD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE04C3631E5C0D3900C8BD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE04C36A1E5C0E2300C8BD4A /* CheckCrossBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCrossBorder.h; sourceTree = "<group>"; };
+		AE04C36B1E5C0E2300C8BD4A /* CheckCrossBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckCrossBorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE04C34C1E5C0D3800C8BD4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE04C3461E5C0D3800C8BD4A = {
+			isa = PBXGroup;
+			children = (
+				AE04C3511E5C0D3900C8BD4A /* Runtime-CheckTheCross-border */,
+				AE04C3501E5C0D3900C8BD4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE04C3501E5C0D3900C8BD4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE04C34F1E5C0D3900C8BD4A /* Runtime-CheckTheCross-border.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE04C3511E5C0D3900C8BD4A /* Runtime-CheckTheCross-border */ = {
+			isa = PBXGroup;
+			children = (
+				AE04C3691E5C0DAC00C8BD4A /* checkCrossBorder */,
+				AE04C3551E5C0D3900C8BD4A /* AppDelegate.h */,
+				AE04C3561E5C0D3900C8BD4A /* AppDelegate.m */,
+				AE04C3581E5C0D3900C8BD4A /* ViewController.h */,
+				AE04C3591E5C0D3900C8BD4A /* ViewController.m */,
+				AE04C35E1E5C0D3900C8BD4A /* Assets.xcassets */,
+				AE04C3601E5C0D3900C8BD4A /* LaunchScreen.storyboard */,
+				AE04C3631E5C0D3900C8BD4A /* Info.plist */,
+				AE04C3521E5C0D3900C8BD4A /* Supporting Files */,
+			);
+			path = "Runtime-CheckTheCross-border";
+			sourceTree = "<group>";
+		};
+		AE04C3521E5C0D3900C8BD4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE04C3531E5C0D3900C8BD4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE04C3691E5C0DAC00C8BD4A /* checkCrossBorder */ = {
+			isa = PBXGroup;
+			children = (
+				AE04C36A1E5C0E2300C8BD4A /* CheckCrossBorder.h */,
+				AE04C36B1E5C0E2300C8BD4A /* CheckCrossBorder.m */,
+			);
+			path = checkCrossBorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE04C34E1E5C0D3800C8BD4A /* Runtime-CheckTheCross-border */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE04C3661E5C0D3900C8BD4A /* Build configuration list for PBXNativeTarget "Runtime-CheckTheCross-border" */;
+			buildPhases = (
+				AE04C34B1E5C0D3800C8BD4A /* Sources */,
+				AE04C34C1E5C0D3800C8BD4A /* Frameworks */,
+				AE04C34D1E5C0D3800C8BD4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Runtime-CheckTheCross-border";
+			productName = "Runtime-CheckTheCross-border";
+			productReference = AE04C34F1E5C0D3900C8BD4A /* Runtime-CheckTheCross-border.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE04C3471E5C0D3800C8BD4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "郝高明";
+				TargetAttributes = {
+					AE04C34E1E5C0D3800C8BD4A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AE04C34A1E5C0D3800C8BD4A /* Build configuration list for PBXProject "Runtime-CheckTheCross-border" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE04C3461E5C0D3800C8BD4A;
+			productRefGroup = AE04C3501E5C0D3900C8BD4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE04C34E1E5C0D3800C8BD4A /* Runtime-CheckTheCross-border */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE04C34D1E5C0D3800C8BD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04C3621E5C0D3900C8BD4A /* LaunchScreen.storyboard in Resources */,
+				AE04C35F1E5C0D3900C8BD4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE04C34B1E5C0D3800C8BD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE04C35A1E5C0D3900C8BD4A /* ViewController.m in Sources */,
+				AE04C3571E5C0D3900C8BD4A /* AppDelegate.m in Sources */,
+				AE04C3541E5C0D3900C8BD4A /* main.m in Sources */,
+				AE04C36C1E5C0E2300C8BD4A /* CheckCrossBorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE04C3601E5C0D3900C8BD4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE04C3611E5C0D3900C8BD4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE04C3641E5C0D3900C8BD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE04C3651E5C0D3900C8BD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE04C3671E5C0D3900C8BD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Runtime-CheckTheCross-border/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artron.Runtime-CheckTheCross-border";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE04C3681E5C0D3900C8BD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Runtime-CheckTheCross-border/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artron.Runtime-CheckTheCross-border";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE04C34A1E5C0D3800C8BD4A /* Build configuration list for PBXProject "Runtime-CheckTheCross-border" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04C3641E5C0D3900C8BD4A /* Debug */,
+				AE04C3651E5C0D3900C8BD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE04C3661E5C0D3900C8BD4A /* Build configuration list for PBXNativeTarget "Runtime-CheckTheCross-border" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE04C3671E5C0D3900C8BD4A /* Debug */,
+				AE04C3681E5C0D3900C8BD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE04C3471E5C0D3800C8BD4A /* Project object */;
+}
